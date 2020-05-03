@@ -20,11 +20,6 @@ jobs:
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
     # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
-      
+
     - name: HTML5 Validator
       uses: Cyb3r-Jak3/html5validator-action@v0.4
-      with:
-        # Path of the files to test
-        root: .
-        # Logging Level. Valid values: DEBUG, INFO, WARNING. Default: WARNING
-        log_level: WARNING
