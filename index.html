@@ -61,7 +61,10 @@
         <div class="row">
           <div class="three wide center aligned column">
             <div class="avatar-wrapper">
-              <object class="avatar" style="width: 100%; padding-top: 20px" data="./assets/images/avatar.jpg" role="img" aria-label="My profile picture"></object>
+              <picture class="avatar" style="width: 100%; padding-top: 20px">
+                <source srcset="./assets/images/avatar.webp" type="image/webp">
+                <img src="./assets/images/avatar.jpg" alt="Serhii Shramko photo">
+              </picture>
             </div>
           </div>
           <div class="thirteen wide column">
@@ -70,24 +73,30 @@
                 <h1 class="name">Serhii Shramko</h1>
                 <ul class="contacts">
                   <li>
-                    <a href="https://github.com/Shramkoweb" rel="author" class="github" aria-label="Serhii Shramko profile in github">
+                    <a href="https://github.com/Shramkoweb" rel="author" class="github">
                       <svg class="icon" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
                         <use xlink:href="#img-github-icon"></use>
                       </svg>
+
+                      <span>GitHub</span>
                     </a>
                   </li>
                   <li>
-                    <a href="https://www.linkedin.com/in/sergey-shramko" rel="author" class="linkedin" aria-label="Serhii Shramko profile in linkedin">
+                    <a href="https://www.linkedin.com/in/sergey-shramko" rel="author" class="linkedin">
                       <svg class="icon" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
                         <use xlink:href="#img-linkedin"></use>
                       </svg>
+
+                      <span>LinkedIn</span>
                     </a>
                   </li>
                   <li>
-                    <a href="https://t.me/shramkoweb" rel="author" class="telegram" aria-label="Write to the author in telegram">
+                    <a href="https://t.me/shramkoweb" rel="author" class="telegram">
                       <svg class="icon" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
                         <use xlink:href="#img-telegram"></use>
                       </svg>
+
+                      <span>Telegram</span>
                     </a>
                   </li>
                   <li>
@@ -95,6 +104,7 @@
                       <svg class="icon" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
                         <use xlink:href="#img-mail-icon"></use>
                       </svg>
+
                       <span>shramko.web@yahoo.com</span>
                     </a>
                   </li>
@@ -103,6 +113,7 @@
                       <svg class="icon" viewBox="0 0 320 512" xmlns="http://www.w3.org/2000/svg">
                         <use xlink:href="#img-phone-icon"></use>
                       </svg>
+
                       <span>+38 (093) 9339696</span>
                     </a>
                   </li>
