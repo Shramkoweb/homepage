@@ -30,7 +30,6 @@
   <link rel="me" href="https://github.com/Shramkoweb" type="text/html">
   <link rel="me" href="mailto:shramko.web@yahoo.com">
   <link rel="me" href="tel:+380939339696">
-  <link rel="stylesheet" href="./assets/styles/style.min.css">
 </head>
 <body>
 <main>
@@ -61,19 +60,16 @@
         <div class="row">
           <div class="three wide center aligned column">
             <div class="avatar-wrapper">
-              <picture class="avatar" style="width: 100%; padding-top: 20px">
-                <source srcset="./assets/images/avatar.webp" type="image/webp">
-                <img src="./assets/images/avatar.jpg" alt="Serhii Shramko photo">
-              </picture>
+                <!-- itemprop="image" -->
             </div>
           </div>
           <div class="thirteen wide column">
-            <div class="stackable grid">
+            <div class="stackable grid" itemscope itemtype="http://schema.org/Person">
               <div class="sixteen wide column">
-                <h1 class="name">Serhii Shramko</h1>
+                <h1 class="name" itemprop="name">Serhii Shramko</h1>
                 <ul class="contacts">
                   <li>
-                    <a href="https://github.com/Shramkoweb" rel="author" class="github" target="_blank">
+                    <a itemprop="url"    href="https://github.com/Shramkoweb" rel="me" class="github" target="_blank" title="Shramko Serhii GitHub page">
                       <svg class="icon" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
                         <use xlink:href="#img-github-icon"></use>
                       </svg>
@@ -82,7 +78,7 @@
                     </a>
                   </li>
                   <li>
-                    <a href="https://www.linkedin.com/in/sergey-shramko" rel="author" class="linkedin" target="_blank">
+                    <a href="https://www.linkedin.com/in/sergey-shramko" rel="me" class="linkedin" target="_blank" title="Shramko Serhii LinkedIn page">
                       <svg class="icon" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
                         <use xlink:href="#img-linkedin"></use>
                       </svg>
@@ -91,7 +87,7 @@
                     </a>
                   </li>
                   <li>
-                    <a href="https://t.me/shramkoweb" rel="author" class="telegram" target="_blank">
+                    <a href="https://t.me/shramkoweb" rel="me" class="telegram" target="_blank" title="Shramko Serhii link to Telegram account">
                       <svg class="icon" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
                         <use xlink:href="#img-telegram"></use>
                       </svg>
@@ -100,7 +96,7 @@
                     </a>
                   </li>
                   <li>
-                    <a href="mailto:shramko.web@yahoo.com" rel="author" target="_blank" class="mail">
+                    <a itemprop="email" href="mailto:shramko.web@yahoo.com" rel="me" target="_blank" class="mail" title="Shramko Serhii personal email">
                       <svg class="icon" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
                         <use xlink:href="#img-mail-icon"></use>
                       </svg>
@@ -109,7 +105,7 @@
                     </a>
                   </li>
                   <li>
-                    <a href="tel:+380939339696" rel="author" class="phone">
+                    <a itemprop="telephone" href="tel:+380939339696" rel="me" class="phone" title="Shramko Serhii personal phone number">
                       <svg class="icon" viewBox="0 0 320 512" xmlns="http://www.w3.org/2000/svg">
                         <use xlink:href="#img-phone-icon"></use>
                       </svg>
@@ -122,10 +118,10 @@
               <div class="sixteen wide mobile only column">
                 <div class="divider"></div>
               </div>
-              <div class="sixteen wide column">
+              <div class="sixteen wide column" >
                 <h2>Resume</h2>
                 <p>
-                  Hi, I’m frontend developer from Kyiv, with 2+ years of experience in application development, responsive and adaptive markup.
+                  Hi, I’m <span itemprop="jobTitle">frontend developer</span> from Kyiv, with 2+ years of experience in application development, responsive and adaptive markup.
                 </p>
                 <p>
                   My goal is to grow professionally as a developer and apply this knowledge to create quality products. I like frontend,
@@ -148,11 +144,11 @@
             <section>
               <h3>Experience</h3>
               <section>
-                <h6>Recent</h6>
+                <h4>Recent</h4>
                 <ul class="timeline">
                   <li class="highlighted">
-                    <p><em>November 2020 – present.</em></p>
-                    <p><strong>Frontend Developer</strong> at <strong><a href="https://p1k.org/" rel="external" target="_blank">Phase One Karma</a></strong></p>
+                    <p><em><time datetime="2020-11">November 2020</time> – present.</em></p>
+                    <h5><strong>Frontend Developer</strong> at <strong><a href="https://p1k.org/" rel="external" target="_blank">Phase One Karma</a></strong></h5>
                     <ul>
                       <li>Create new corporate site on Gatsby</li>
                       <li>Reduced chunk size by 12KB each. We saved about 60KB</li>
@@ -162,11 +158,11 @@
                     </ul>
                   </li>
                   <li class="highlighted">
-                    <p><em>November 2019 – present.</em></p>
-                    <p><strong>HTML/CSS & JS tutor</strong> at <strong><a href="https://htmlacademy.ru/" rel="external" target="_blank">HTML Academy</a></strong></p>
+                    <p><em><time datetime="2019-11">November 2019</time> – present.</em></p>
+                    <h5><strong>Tutor</strong> at <strong><a href="https://htmlacademy.ru/" rel="external" target="_blank">HTML Academy</a></strong></h5>
                     <ul>
-                      <li>Trained over 15 people</li>
-                      <li>Code reviews in GH</li>
+                      <li>Mentored more than 17 people 🏆</li>
+                      <li>Code reviews in GitHub</li>
                       <li>Voice and text consultations</li>
                       <li>Motivation and inspiration</li>
                     </ul>
@@ -174,11 +170,11 @@
                 </ul>
               </section>
               <section>
-                <h6>Back then</h6>
+                <h4>Back then</h4>
                 <ul class="timeline">
                   <li>
-                    <p><em>April 2019 – November 2020. 1 yr 8 mos</em></p>
-                    <p><strong>Frontend Developer</strong> at <strong><a href="https://www.pdffiller.com/" rel="external" target="_blank">PDFfiller</a></strong></p>
+                    <p><em><time datetime="2019-04">April 2019</time> – <time datetime="2020-11">November 2020</time>. 1 yr 8 mos</em></p>
+                    <h5><strong>Frontend Developer</strong> at <strong><a href="https://www.pdffiller.com/" rel="external" target="_blank">PDFfiller</a></strong></h5>
                     <ul>
                       <li>By improving the UI framework, I reduced the size of the CSS bundle by 5%</li>
                       <li>Writing tests</li>
@@ -191,8 +187,8 @@
                     </ul>
                   </li>
                   <li>
-                    <p><em>December 2018 – March 2019. 4 mos</em></p>
-                    <p><strong>Frontend Developer - JS/HTML/CSS</strong> at <strong><a href="https://hexa.com.ua/en/home/" rel="external" target="_blank">Hexa</a></strong></p>
+                    <p><em><time datetime="2018-12">December 2018</time> – <time datetime="2019-03">March 2019</time>. 4 mos</em></p>
+                    <h5><strong>Frontend Developer</strong> at <strong><a href="https://hexa.com.ua/en/home/" rel="external" target="_blank">Hexa</a></strong></h5>
                     <ul>
                       <li>Create user-friendly web pages</li>
                       <li>Maintain existing code</li>
@@ -245,19 +241,13 @@
                     <a href="https://htmlacademy.ru/intensive/nodejs" rel="external" target="_blank"><strong>HTML Academy</strong></a></div>
                 </li>
                 <li>
-                  <div><em>Present</em></div>
-                  <div>
-                    <strong>Frontend JS</strong> at
-                    <a href="https://ru.hexlet.io/professions/frontend" rel="external" target="_blank"><strong>Hexlet</strong></a></div>
-                </li>
-                <li>
-                  <div><em>August 2018 &ndash; December 2019</em></div>
+                  <div><em><time datetime="2018-08">August 2018</time> &ndash; <time datetime="2019-10">December 2019</time></em></div>
                   <div>
                     <strong>Completed all Front-end courses</strong> at
                     <a href="https://htmlacademy.ru/profile/id852139/certificates" rel="external" target="_blank"><strong>HTML Academy</strong></a></div>
                 </li>
                 <li>
-                  <div><em>2013 &ndash; 2016</em></div>
+                  <div><em><time datetime="2013">2013</time> &ndash; <time datetime="2016">2016</time></em></div>
                   <div>
                     <strong>Master degree</strong> in <strong>Electromechanical Systems of Automation and Electric Drive</strong> at
                     <a href="http://www.nmu.org.ua/en/" rel="external" target="_blank"><strong>National Mining University</strong></a></div>
