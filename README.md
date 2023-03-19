@@ -1,5 +1,5 @@
 [![Netlify Status](https://api.netlify.com/api/v1/badges/4955b1a6-2729-4437-84c0-139656537f09/deploy-status)](https://app.netlify.com/sites/shramko/deploys)
-# Hi! 
+# Hi! It's my old site, [link to new website](https://shramko.dev/). 
 My name is Serhii and this is my website.
 
 I've hosted it in [GitHub Pages](https://pages.github.com/) and [netlify](https://www.netlify.com/), because it's so much easier, free, and saves my time.
