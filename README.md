@@ -9,3 +9,6 @@ Website tested with [Lighthouse](https://developers.google.com/web/tools/lightho
 
 ## License
 [MIT](LICENSE)
+
+
+Created by [Serhii Shramko](https://shramko.dev/). This is my personal website and blog.
